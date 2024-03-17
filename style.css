@@ -1,0 +1,90 @@
+body {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: black;
+    margin: 0;
+    --customMargin: 48px;
+    font-family: "DIN Alternate", sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    background-color: white;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info {
+    box-shadow: 0px 4px 8px 0px rgb(0, 0, 0, 0.2);
+    height: 30vh;
+    padding: 6px var(--customMargin);
+}
+
+.inputs {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 128px;
+    row-gap: 3vh;
+    margin-top: 12px;;
+}
+
+button {
+    margin: 28px var(--customMargin);
+    border-radius: 5px;
+    padding: 10px 48px;
+    background-color: rgb(40, 0, 78);
+    color: white;
+    font-weight: bold;
+    border-style: hidden;
+    box-shadow: 0px 4px 8px 0px rgb(0, 0, 0, 0.2);
+}
+
+.introText {
+    padding: 0 128px 64px var(--customMargin);
+}
+
+.exists {
+    padding:  0 var(--customMargin);
+}
+
+input {
+    height: 3vh;
+    width: 15vw;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+legend {
+    padding: 0;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    position: absolute;
+    background: white;
+    opacity: 50%;
+    display: flex;
+    justify-content: center;
+    width: 31.5vw;
+    top: 10%;
+}
+
+input:focus {
+    border-color: lightskyblue;
+}
+
+.error {
+    border-color: red;
+}
